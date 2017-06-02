@@ -1,0 +1,17 @@
+package rpgproject;
+
+public class player {
+
+	int hp;
+	int damage;
+	int Mdamage;
+	int armor;
+	int Marmor;
+	int energy;
+	int mana;
+	
+	int human;
+	int orc;
+	int elf;
+	
+}
