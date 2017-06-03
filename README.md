@@ -1,2 +1,2 @@
 # RPG-game
-Made by Elijah, Jake, Jeremy
+Made by Elijah, Jake, and Jeremy
