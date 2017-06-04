@@ -9,6 +9,7 @@ public class player {
 	int Marmor;
 	int energy;
 	int mana;
+	int player;
 	
 	int human;
 	int orc;
