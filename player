@@ -9,11 +9,22 @@ public class player {
 	int Marmor;
 	int energy;
 	int mana;
-	int player;
+	int rep;
+	int Mrep;
 	int level;
 	
 	int human;
 	int orc;
 	int elf;
+	
+	void player(){
+		int hp = 1;
+		int damage = 1;
+		int Mdamage = 1;
+		int armor = 1;
+		int Marmor = 1;
+		int energy = 5;
+		int mana = 5;
+	}
 	
 }
