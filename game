@@ -50,7 +50,7 @@ public class game {
 			
 		}
 	
-		if (former = false){
+		if (sub = true){
 			System.out.println("We are a proud, smart and strong, though the former think otherwise, its time for a new power to rule");
 			System.out.println("if you want to know more about the creatures and their stats say 'info'");
 			System.out.println("what kind of race are you?");
