@@ -8,15 +8,29 @@ public class game {
 		String answer;
 		
 		you.level = 1;
+		you.rep = 0;
+		you.Mrep = 0;
+		
+		boolean firstChoice = false;
 		
 		System.out.println("options you can type will be given to you like 'hello' (so that means typing hello will send up an option");
 		System.out.println(" ");
 		System.out.println("Were you born before (Real critter) or after (mythical critter) the great extinction? ('real' - 'mythical'");
 		answer = choice.next();
-			if (choice.equals("Real")){
-				
+			
+		while (firstChoice == false){
+		if (choice.equals("Real")){
+				you.rep = you.rep + 1;
+				you.Mrep = you.Mrep - 1;
+			}else if (choice.equals("mythical")){
+				you.Mrep = you.Mrep + 1;
+				you.rep = you.rep - 1;
+			}else{
+				System.out.println("Say either 'real' or 'mythical'");
 			}
 		}
 	
 	}
+}
  
+
