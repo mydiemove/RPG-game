@@ -12,6 +12,7 @@ public class game {
 		you.Mrep = 0;
 		
 		boolean firstChoice = false;
+		boolean playercreator;
 		
 		System.out.println("options you can type will be given to you like 'hello' (so that means typing hello will send up an option");
 		System.out.println(" ");
@@ -20,20 +21,22 @@ public class game {
 			
 		while (firstChoice == false){
 			answer = choice.next();
-		if (answer.equals("real")){
+		if (answer.equals("former")||answer.equals("Former")||answer.equals("former ")||answer.equals("Former ")){
 				you.rep = you.rep + 1;
 				you.Mrep = you.Mrep - 1;
 				firstChoice = true;
+				System.out.println("You are a former race");
 			}else if (answer.equals("mythical")){
 				you.Mrep = you.Mrep + 1;
 				you.rep = you.rep - 1;
 				firstChoice = true;
+				System.out.println("You are a subsiquent race");
 			}else{
 				System.out.println("Say either 'real' or 'mythical'");
 			}
 		}
+		
 	
 	}
 }
  
-
