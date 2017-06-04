@@ -10,6 +10,7 @@ public class player {
 	int energy;
 	int mana;
 	int player;
+	int level;
 	
 	int human;
 	int orc;
