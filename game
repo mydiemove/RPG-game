@@ -7,6 +7,8 @@ public class game {
 		Scanner choice = new Scanner(System.in);
 		String answer;
 		
+		you.level = 1;
+		
 		System.out.println("options you can type will be given to you like 'hello' (so that means typing hello will send up an option");
 		System.out.println(" ");
 		System.out.println("Were you born before (Real critter) or after (mythical critter) the great extinction? ('real' - 'mythical'");
