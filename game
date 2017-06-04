@@ -7,18 +7,14 @@ public class game {
 		Scanner choice = new Scanner(System.in);
 		String answer;
 		
-		
-		
-		System.out.println("What race would you like to be? here are some choices");
-		System.out.println("Human (+1 to everything)");
-		System.out.println("Elf (+2 to hp, Mdamage, Marmor, mana | -2 to armor, energy, damage");
-		System.out.println("Orc (+2 to hp, armor, energy, damage | -2 to Mdamage Marmor, mana");
+		System.out.println("options you can type will be given to you like 'hello' (so that means typing hello will send up an option");
+		System.out.println(" ");
+		System.out.println("Were you born before (Real critter) or after (mythical critter) the great extinction? ('real' - 'mythical'");
 		answer = choice.next();
-		if(answer.equals("orc")|| answer.equals("Orcs")||answer.equals("orc ")||answer.equals("Orc ")){
-			
+			if (choice.equals("Real")){
+				
+			}
 		}
 	
 	}
  
-}
-
